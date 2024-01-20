@@ -173,11 +173,11 @@ void UCombatComponent::SET_HUDCrosshairs(float p_DeltaTime)
 			}
 			else
 			{
-			m_HUDPackage.s_CrosshairsCenter = nullptr ;
-			m_HUDPackage.s_CrosshairsRight  = nullptr ;
-			m_HUDPackage.s_CrosshairsLeft   = nullptr ;
-			m_HUDPackage.s_CrosshairsTop    = nullptr ;
-			m_HUDPackage.s_CrosshairsBottom = nullptr ;
+				m_HUDPackage.s_CrosshairsCenter = nullptr ;
+				m_HUDPackage.s_CrosshairsRight  = nullptr ;
+				m_HUDPackage.s_CrosshairsLeft   = nullptr ;
+				m_HUDPackage.s_CrosshairsTop    = nullptr ;
+				m_HUDPackage.s_CrosshairsBottom = nullptr ;
 			}
 
 			// Calculate crosshair spread

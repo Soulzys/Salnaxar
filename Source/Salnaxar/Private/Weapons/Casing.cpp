@@ -33,7 +33,7 @@ void ACasing::BeginPlay()
 	Super::BeginPlay();
 
 	m_CasingMesh->OnComponentHit.AddDynamic(this, &ACasing::ON_Hit)            ;
-	m_CasingMesh->AddImpulse(GetActorForwardVector() * m_ShellEjectionImpulse) ;	
+	m_CasingMesh->AddImpulse(GetActorForwardVector() * m_ShellEjectionImpulse) ;
 }
 
 void ACasing::ON_Hit
